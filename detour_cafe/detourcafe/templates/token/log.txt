@@ -1,0 +1,18 @@
+Script 1 Output:
+python: can't open file 'C:\\xampp\\htdocs\\detourcafe\\templates\\dashboard\\forecast_data_sales.py': [Errno 2] No such file or directory
+
+Script 2 Output:
+python: can't open file 'C:\\xampp\\htdocs\\detourcafe\\templates\\dashboard\\forecast_demand.py': [Errno 2] No such file or directory
+
+Script 3 Output:
+python: can't open file 'C:\\xampp\\htdocs\\detourcafe\\templates\\dashboard\\forecast_levels.py': [Errno 2] No such file or directory
+
+Script 1 Output:
+python: can't open file 'C:\\xampp\\htdocs\\detourcafe\\templates\\dashboard\\forecast_data_sales.py': [Errno 2] No such file or directory
+
+Script 2 Output:
+python: can't open file 'C:\\xampp\\htdocs\\detourcafe\\templates\\dashboard\\forecast_demand.py': [Errno 2] No such file or directory
+
+Script 3 Output:
+python: can't open file 'C:\\xampp\\htdocs\\detourcafe\\templates\\dashboard\\forecast_levels.py': [Errno 2] No such file or directory
+

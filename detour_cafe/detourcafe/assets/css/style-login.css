@@ -1,0 +1,187 @@
+/* ===================================== LOGIN PAGE ================================== */
+
+/* ===================================== Import Variables ================================== */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+/* ===================================== Basic CSS ==================================== */
+html,body {
+    height:100%;
+    width:100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; 
+}
+
+img {
+  max-width: 100%; 
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #444; 
+}
+
+a:hover {
+  color: #444; 
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0; 
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none; 
+}
+
+
+.form-01-main,html,body{
+  height: 100%;
+}
+
+.form-01-main {
+    padding: 40px 0px;
+    background: url(../login-background.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    width:100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-sub-main{
+    font-family: "Nunito", sans-serif;
+    max-width:500px;
+    width:100%;
+    display:block;
+    margin:20px auto;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 45px 60px 46px;
+
+}
+
+ @media screen and (max-width:767px){
+      .form-sub-main{
+        padding: 30px;
+      }
+  }
+
+.form-control {
+    min-height: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #fb912d;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #1a1a1a66;
+    margin:30px 0px;
+    border-radius: 20px;
+}
+
+.form-sub-main{
+    color:#545454;
+    font-size:16px;
+    margin-top: 5%;
+}
+
+.form-sub-main .form-group label{
+    display:block;
+    margin-bottom:6px;
+    color: #1a1a1a;;
+}
+
+.form-group{
+    position:relative;
+    z-index:9;
+}
+
+.toggle-password{
+    position:absolute;
+    right:8px;
+    bottom:18px;
+}
+
+.form-group .form-control:focus{
+    background:transparent;
+    box-shadow:1;
+    border-color:#fb912d;
+    color:#fb912d;
+}
+
+.check_box_main{
+  display:inline-block;
+  width:100%;
+  text-align:center;
+}
+
+.btn_uy{
+font-family: "Nunito", sans-serif;
+  position:relative;
+  z-index:9;
+  display:block;
+  margin:40px 0px 0px 0px;
+}
+
+.btn_uy .btn {
+    font-family: "Nunito", sans-serif;
+    padding: 15px 20px;
+    background: #fb912d;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: normal;
+    border-radius: 5px;
+    color: #fff;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+    border-radius: 20px;
+}
+
+.btn_uy .btn:hover{
+    border-color: #FA810F;
+    background-color:#FA810F;
+}
+
+._main_head_as{
+  margin:20px 0 25px 0px;
+  display:inline-block;
+  z-index:2;
+  position:relative; 
+}
+
+._main_head_as a img{
+  width:auto;
+  position:relative;
+}
+
+.error {
+  color: #d32f2f !important;
+  background-color: #fdd;
+  border: 1px solid #d32f2f !important;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
